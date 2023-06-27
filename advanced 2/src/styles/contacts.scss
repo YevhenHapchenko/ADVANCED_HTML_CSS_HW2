@@ -1,0 +1,86 @@
+.contacts{
+    background:black;
+    color:#B9B9B9;
+    padding:45px 7% 0 7%;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+.contacts__wrapper{
+    max-width:700px;
+    margin: 0 auto;
+}
+
+.contacts__title{
+    font-size:14px;
+    color:#FEFEFE;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.contacts__description{
+    font-size:12px;
+    max-width:700px;
+    margin:0 auto;
+}
+
+.icons{
+    margin:20px 0;
+}
+
+.icons__button{
+    width:39px;
+    border-radius:50%;
+    padding:10px;
+    background:transparent;
+    outline:none;
+    border:2px solid red;
+}
+
+.icons__button--rss{
+    border: 2px solid #F8902E;
+}
+
+.icons__button--facebook{
+    border: 2px solid #39599F;
+}
+
+.icons__button--twitter{
+    border: 2px solid #45B0E3;
+}
+
+.icons__button--dribble{
+    border: 2px solid #D97AB0;
+}
+
+.icons__button--pinterest{
+    border: 2px solid #CC212C;
+}
+
+
+.icons__icon{
+    height:10px;
+}
+
+.contacts__contact{
+    font-size:14px;
+    line-height:24px;
+}
+
+
+@media (min-width: 480px) {
+
+    .contacts-title{
+        font-size:16px;
+    }
+
+    .contacts__description{
+        font-size: 16px;
+    }
+    .contacts__contact{
+        display:inline;
+        font-size:16px;
+    }
+    
+}
